@@ -1,10 +1,10 @@
 {
   "name": "@cfn-modules/ecs-cluster",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "ECS cluster",
   "author": "Michael Wittig <michael@widdix.de>",
   "license": "Apache-2.0",
-  "keywords": ["cfn-modules", "cfn-modules:ExposeName"],
+  "keywords": ["cfn-modules", "cfn-modules:ExposeArn", "cfn-modules:ExposeName"],
   "homepage": "https://github.com/cfn-modules",
   "bugs": {
     "url": "https://github.com/cfn-modules/ecs-cluster/issues"
