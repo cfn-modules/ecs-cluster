@@ -1,8 +1,8 @@
 {
   "private": true,
   "dependencies": {
-    "eslint": "5.16.0",
-    "ava": "1.4.1",
+    "eslint": "6.2.2",
+    "ava": "2.3.0",
     "@cfn-modules/test": "0.5.1",
     "@cfn-modules/ecs-cluster": "file:../"
   },
