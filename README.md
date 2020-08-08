@@ -1,6 +1,3 @@
-[![Build Status](https://travis-ci.org/cfn-modules/ecs-cluster.svg?branch=master)](https://travis-ci.org/cfn-modules/ecs-cluster)
-[![NPM version](https://img.shields.io/npm/v/@cfn-modules/ecs-cluster.svg)](https://www.npmjs.com/package/@cfn-modules/ecs-cluster)
-
 # cfn-modules: ECS cluster
 
 ECS cluster.
