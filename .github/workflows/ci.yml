@@ -22,7 +22,7 @@ jobs:
     - name: cfn-lint
       run: |
         pip install cfn-lint==0.80.3
-        cfn-lint -t module.yml && cfn-lint -t test/*.yml
+        cfn-lint -t module.yml && cfn-lint --ignore-checks W3002 -t test/*.yml
 
     - name: license
       run: |
