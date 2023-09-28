@@ -15,15 +15,24 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Description: 'cfn-modules: ECS cluster'
 # cfn-modules:implements(ExposeArn, ExposeName)
+Parameters:
+  ContainerInsights:
+    Description: 'Enable detailed container monitoring.'
+    Type: String
+    Default: disabled
+    AllowedValues: [enabled, disabled]
 Resources:
   Cluster:
     Type: 'AWS::ECS::Cluster'
-    Properties: {}
+    Properties:
+      ClusterSettings:
+      - Name: containerInsights
+        Value: !Ref ContainerInsights
 Outputs:
   ModuleId:
     Value: 'ecs-cluster'
   ModuleVersion:
-    Value: '1.1.0'
+    Value: '1.2.0'
   StackName:
     Value: !Ref 'AWS::StackName'
   Arn:
